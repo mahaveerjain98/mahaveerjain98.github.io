@@ -5,4 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
         alert('Thank you for contacting me!');
         form.reset();
     });
-});
+
+    // GSAP animations
+    gsap.from(".section", { duration: 1, y: 50, opacity: 
