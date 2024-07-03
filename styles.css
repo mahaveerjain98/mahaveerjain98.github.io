@@ -10,6 +10,9 @@ header {
     background-color: #007BFF;
     color: white;
     padding: 1em 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -27,11 +30,18 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
 }
 
 .section {
     padding: 2em 0;
     text-align: center;
+    background-color: #fff;
 }
 
 .container {
@@ -55,6 +65,21 @@ h1, h2 {
     margin: 0.5em;
     padding: 1em;
     border-radius: 5px;
+    animation: bounceIn 1s ease-in-out;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .project {
@@ -63,6 +88,11 @@ h1, h2 {
     padding: 1em;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
 }
 
 form input, form textarea {
@@ -80,6 +110,7 @@ form button {
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 form button:hover {
