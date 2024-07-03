@@ -3,83 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahaveer Jain - Data Scientist</title>
+    <title>Mahaveer Jain | Data Scientist</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="about">
+    <section id="home" class="section">
+        <div class="container">
             <h1>Mahaveer Jain</h1>
             <p>Data Scientist / Machine Learning Engineer</p>
-            <p>With over 3 years of industrial experience working as a Data Scientist, completing business requirements to meaningful products and tools in an agile environment.</p>
-            <p>Implemented end-to-end projects in Computer Vision, Object Detection, AutoML, Anomaly Detection & Classification, and predictive analysis, from Data analysis to deployment in production.</p>
-            <p>Worked on custom-based analysis for Energy Sector companies, creating solutions optimized for growth in revenue.</p>
-            <p>Updated in the LLM world on providing solutions and crafting knowledge-based systems.</p>
-        </section>
+        </div>
+    </section>
 
-        <section id="experience">
-            <h2>Professional Experience</h2>
-            <article>
-                <h3>Data Scientist - Happiest Minds Technologies</h3>
-                <p>January 2023 – Present, Bangalore, India</p>
-                <ul>
-                    <li>Developed a Streamlit chatbot for internal documents, reducing onboarding time by 30%.</li>
-                    <li>Optimized Planner Assignment using Business Rules and an Automation Tool, increasing efficiency by 50%.</li>
-                    <li>Implemented an ETL automation project, improving efficiency and saving time and effort.</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Associate Data Scientist - Happiest Minds Technologies</h3>
-                <p>October 2020 – December 2022, Bangalore, India</p>
-                <ul>
-                    <li>Leveraged OCR and business rules to manage data, reducing document search time by 60%.</li>
-                    <li>Developed an anomaly detection and fault classification product, reducing asset downtime by 50%.</li>
-                    <li>Created a framework for object detection and OCR, enhancing image classification and text extraction.</li>
-                </ul>
-            </article>
-        </section>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Around more than 3 years of Industrial experience working as a Data Scientist...</p>
+            <h3>Professional Experience</h3>
+            <p>Data Scientist at Happiest Minds Technologies...</p>
+            <h3>Education</h3>
+            <p>B.E Mechatronics, Mahendra Engineering College...</p>
+        </div>
+    </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <article>
-                <h3>POC on LLM</h3>
-                <p>Created a Chatbot in Streamlit for POC of internal documents, aiding new joinees.</p>
-            </article>
-            <article>
-                <h3>DAMS</h3>
-                <p>Extracted data using OCR, analyzed and managed it using Business Rules, resulting in a searchable format.</p>
-            </article>
-        </section>
-
-        <section id="skills">
+    <section id="skills" class="section">
+        <div class="container">
             <h2>Skills</h2>
-            <ul>
-                <li>Python, PyTorch, Numpy, Pandas, Scikit-Learn, FastAPI, Pydantic, Langchain, spaCy</li>
-                <li>Machine Learning, Computer Vision, NLP, LLM, Deep Learning</li>
-                <li>Docker, Git, Github Actions, AWS Lambda, Azure DevOps</li>
-                <li>SQL (Sqlalchemy), NoSQL (MongoDB, DynamoDB)</li>
-            </ul>
-        </section>
+            <div class="skills-grid">
+                <div class="skill">Python</div>
+                <div class="skill">Machine Learning</div>
+                <div class="skill">Deep Learning</div>
+                <div class="skill">Computer Vision</div>
+                <div class="skill">NLP</div>
+                <div class="skill">Docker</div>
+            </div>
+        </div>
+    </section>
 
-        <section id="contact">
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Name</h3>
+                <p>Description of the project...</p>
+            </div>
+            <div class="project">
+                <h3>Project Name</h3>
+                <p>Description of the project...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:mahaveer.jain.p8@gmail.com">mahaveer.jain.p8@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/mahaveerjainp">linkedin.com/in/mahaveerjainp</a></p>
-            <p>GitHub: <a href="https://github.com/mahaveerjain98">github.com/mahaveerjain98</a></p>
-        </section>
-    </main>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/mahaveerjainp">LinkedIn</a>
+                <a href="https://github.com/mahaveerjain98">GitHub</a>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <p>&copy; 2024 Mahaveer Jain</p>
