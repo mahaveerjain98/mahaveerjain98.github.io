@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahaveer Jain | Data Scientist</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -13,22 +15,23 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="home" class="section">
-        <div class="container">
+        <div class="container animate__animated animate__fadeIn">
             <h1>Mahaveer Jain</h1>
             <p>Data Scientist / Machine Learning Engineer</p>
         </div>
     </section>
 
     <section id="about" class="section">
-        <div class="container">
+        <div class="container animate__animated animate__fadeInUp">
             <h2>About Me</h2>
             <p>Around more than 3 years of Industrial experience working as a Data Scientist...</p>
             <h3>Professional Experience</h3>
@@ -38,8 +41,46 @@
         </div>
     </section>
 
+    <section id="experience" class="section">
+        <div class="container animate__animated animate__fadeInUp">
+            <h2>Professional Experience</h2>
+            <div class="experience">
+                <h3>Data Scientist - Happiest Minds Technologies</h3>
+                <p>January 2023 – Present, Bangalore, India</p>
+                <ul>
+                    <li>Developed a Streamlit chatbot for internal documents, reducing onboarding time by 30%.</li>
+                    <li>Optimized Planner Assignment using Business Rules and an Automation Tool, increasing efficiency by 50%.</li>
+                    <li>Implemented an ETL automation project, improving efficiency and saving time and effort.</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <h3>Associate Data Scientist - Happiest Minds Technologies</h3>
+                <p>October 2020 – December 2022, Bangalore, India</p>
+                <ul>
+                    <li>Leveraged OCR and business rules to manage data, reducing document search time by 60%.</li>
+                    <li>Developed an anomaly detection and fault classification product, reducing asset downtime by 50%.</li>
+                    <li>Created a framework for object detection and OCR, enhancing image classification and text extraction.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container animate__animated animate__fadeInUp">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>POC on LLM</h3>
+                <p>Created a Chatbot in Streamlit for POC of internal documents, aiding new joinees.</p>
+            </div>
+            <div class="project">
+                <h3>DAMS</h3>
+                <p>Extracted data using OCR, analyzed and managed it using Business Rules, resulting in a searchable format.</p>
+            </div>
+        </div>
+    </section>
+
     <section id="skills" class="section">
-        <div class="container">
+        <div class="container animate__animated animate__fadeInUp">
             <h2>Skills</h2>
             <div class="skills-grid">
                 <div class="skill">Python</div>
@@ -52,22 +93,8 @@
         </div>
     </section>
 
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project Name</h3>
-                <p>Description of the project...</p>
-            </div>
-            <div class="project">
-                <h3>Project Name</h3>
-                <p>Description of the project...</p>
-            </div>
-        </div>
-    </section>
-
     <section id="contact" class="section">
-        <div class="container">
+        <div class="container animate__animated animate__fadeInUp">
             <h2>Contact</h2>
             <form>
                 <input type="text" name="name" placeholder="Your Name" required>
