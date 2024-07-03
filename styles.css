@@ -1,55 +1,100 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     color: #333;
+    background-color: #f4f4f4;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+    background-color: #007BFF;
+    color: white;
+    padding: 1em 0;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    margin: 0 1rem;
+    margin: 0 1em;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
-main {
-    padding: 2rem;
+.section {
+    padding: 2em 0;
+    text-align: center;
 }
 
-section {
-    margin-bottom: 2rem;
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #007BFF;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #007BFF;
+    color: white;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.project {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 1em 2em;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.social-links a {
+    margin: 0 0.5em;
+    text-decoration: none;
+    color: #007BFF;
 }
 
 footer {
+    background-color: #007BFF;
+    color: white;
     text-align: center;
-    padding: 1rem 0;
-    background: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-h1, h2, h3 {
-    color: #333;
-}
-
-a {
-    color: #0066cc;
+    padding: 1em 0;
 }
